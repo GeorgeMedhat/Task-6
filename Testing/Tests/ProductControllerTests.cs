@@ -87,9 +87,4 @@ public class ProductControllerTests
         Assert.IsType<NotFoundResult>(result);
     }
 
-    [Fact]
-    public void SampleTest_ShouldRun()
-    {
-        Assert.True(1 + 1 == 2);
-    }
 }
